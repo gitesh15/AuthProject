@@ -1,0 +1,157 @@
+<!-- frontend/index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexServe</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- LEFT PANEL -->
+      <div class="left-panel">
+        <div class="logo">
+          <div class="logo-box">N</div>
+          <h2>NexServe</h2>
+        </div>
+
+        <div class="left-content">
+          <h1>
+            Welcome back <br />
+            to <span>NexServe</span>
+          </h1>
+
+          <p>Trusted Hyperlocal Marketplace</p>
+
+          <div class="features">
+            <div class="feature-card">
+              <div class="icon-box">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+
+              <div>
+                <h3>Book trusted local professionals near you.</h3>
+                <p>
+                  Connect with verified electricians, tutors, plumbers,
+                  mechanics, beauticians and more — all in one modern platform.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-card">
+              <div class="icon-box">
+                <i class="fa-solid fa-users"></i>
+              </div>
+
+              <div>
+                <h3>Team Collaboration</h3>
+                <p>Work seamlessly with your entire team.</p>
+              </div>
+            </div>
+
+            <div class="feature-card">
+              <div class="icon-box">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+
+              <div>
+                <h3>Secure & Private</h3>
+                <p>Your data is protected enterprise-wide.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="right-panel">
+        <div class="top-text">
+          Don’t have an account?
+          <a href="#">Sign up</a>
+        </div>
+
+        <div class="login-card">
+          <h1>Sign in to your account</h1>
+          <p class="subtext">Enter your details below to continue</p>
+
+          <form>
+            <div class="input-group">
+              <label>Email address</label>
+
+              <div class="input-box">
+                <i class="fa-regular fa-envelope"></i>
+
+                <input type="email" placeholder="Enter your email" />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label>Password</label>
+
+              <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  id="password"
+                />
+
+                <i class="fa-regular fa-eye-slash eye" id="togglePassword"></i>
+              </div>
+            </div>
+
+            <div class="options">
+              <div class="remember">
+                <input type="checkbox" />
+                <span>Remember me</span>
+              </div>
+
+              <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="login-btn">Sign In</button>
+          </form>
+
+          <div class="divider">
+            <span>or continue with</span>
+          </div>
+
+          <div class="social-buttons">
+            <button>
+              <i class="fa-brands fa-google"></i>
+              Continue with Google
+            </button>
+
+            <button>
+              <i class="fa-brands fa-github"></i>
+              Continue with GitHub
+            </button>
+
+            <button>
+              <i class="fa-brands fa-microsoft"></i>
+              Continue with Microsoft
+            </button>
+          </div>
+
+          <p class="terms">
+            By signing in, you agree to our
+            <a href="#">Terms</a>
+            and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

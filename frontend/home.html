@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="logo">
+          <div class="logo-box">N</div>
+          <h2>Nexora</h2>
+        </div>
+
+        <nav>
+          <a href="#" class="active">
+            <i class="fa-solid fa-house"></i>
+            Dashboard
+          </a>
+
+          <a href="#">
+            <i class="fa-solid fa-chart-line"></i>
+            Analytics
+          </a>
+
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+            Profile
+          </a>
+
+          <a href="#">
+            <i class="fa-solid fa-gear"></i>
+            Settings
+          </a>
+        </nav>
+
+        <button id="logoutBtn">Logout</button>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main-content">
+        <div class="topbar">
+          <h1>Welcome Back 👋</h1>
+
+          <div class="user-box">
+            <i class="fa-solid fa-user"></i>
+            <span id="userEmail"></span>
+          </div>
+        </div>
+
+        <!-- CARDS -->
+
+        <div class="cards">
+          <div class="card">
+            <h2>Projects</h2>
+            <p>12 Active Projects</p>
+          </div>
+
+          <div class="card">
+            <h2>Tasks</h2>
+            <p>34 Pending Tasks</p>
+          </div>
+
+          <div class="card">
+            <h2>Teams</h2>
+            <p>5 Team Members</p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="home.js"></script>
+  </body>
+</html>
